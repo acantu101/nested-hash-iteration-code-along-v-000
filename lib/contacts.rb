@@ -22,6 +22,7 @@ def remove_strawberry(contacts)
       if flavor == "strawberry"
         favorite_ice_cream_flavors - "strawberry"
       end
+    contacts
     end
   end
 end
