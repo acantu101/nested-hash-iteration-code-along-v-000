@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
   if att == :favorite_ice_cream_flavors
     value.each do |flavor|
       if flavor == "strawberry"
-        favorite_ice_cream_flavors - "strawberry"
+        :favorite_ice_cream_flavors - "strawberry"
       end
     contacts
     end
